@@ -1,0 +1,99 @@
+/* Reset some default styles in browsers */
+ h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  /* Add a background color to the entire page */
+  body {
+    background-color: #e0ffff ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .container {
+    max-width: auto;
+    margin:  auto;
+    padding:  20px;
+}
+  
+  /* Style the header section */
+  header {
+    background-color:#008b8b  ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add a profile photo */
+  .profile-photo {
+    width: 10px;
+    border-radius: 10%;
+    height: 10px; 
+  }
+  .about_section{
+    width: 100%;
+    float: left;
+}
+.education{
+    width: 100%;
+    float: left;
+}
+
+.text{
+    text-align: right;
+    margin-top: 1px;
+}
+
+.edu_text{
+    margin-top: 1px;
+    text-align: left;
+}
+ .lorem_text {
+
+    float: left;
+    font-size: 16px;
+    color: #1d1c24;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+  
+  /* Style the main content area */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style each section */
+  section {
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Add some space at the bottom of the page */
+  footer {
+    text-align: center;
+    padding:  1px;
+    margin-top: 200px;
+    background-color:#008b8b ;
+    color: white;
+  }
+  
