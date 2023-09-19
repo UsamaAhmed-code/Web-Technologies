@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant App</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        p, h2{
+            text-align: center;
+        }
+
+        .header, .footer {
+            background-color: #ed4b48;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #1e1b1b;
+        }
+
+        .nav button {
+            padding: 10px;
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        .nav button:focus {
+            outline: none;
+        }
+
+        .nav button.active {
+            background-color: #777;
+        }
+
+        .nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+
+        .content {
+            padding: 20px;
+        }
+
+        img.special-image {
+            width: 25%;
+            margin-top: 20px;
+        }
+        .daal{
+            text-align: left;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">The GodFather</div>
+
+    <div class="nav">
+        <nav>
+            <ul>
+              <li><a href="#app_content">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#experience">Contact</a></li>
+            </ul>
+          </nav>
+    </div>
+
+<div>
+    <div class="content" id="app-content">
+        <div><h2>Daily Specials</h2>
+        <p>Check out our delicious specials for today!</p></div>
+        <div class="row">
+            <div class="column-md-6">
+             <h5>Daal of the day</h5>
+              <img class ="special-image" src="daal.png" alt="Daal" >
+            </div>
+            <div class="column">
+                <h5>Vegi of the day</h5>
+              <img  class ="special-image" src="Aloo-Gobi-Matar-4.jpg" alt="Vegi" >
+            </div>
+            <div class="column">
+                <h5>Chicken of the Day</h5>
+              <img class ="special-image" src="butter.jpg" alt="Chicken" >
+            </div>
+          </div>
+    </div>
+
+    <div class="content" id="menu">
+        <h2>Main Menu</h2>
+        <p>Check out our delicious Main Course!</p>
+        <div class="row">
+            <div class="column">
+             <h5>Mutton Curry</h5>
+              <img class ="special-image" src="mutton curry.jpg" alt="Daal" >
+            </div>
+            <div class="column">
+                <h5>Special Briyani</h5>
+              <img  class ="special-image" src="briyani.jpg" alt="Vegi" >
+            </div>
+            <div class="column">
+                <h5>Malai Boti</h5>
+              <img class ="special-image" src="malai-boti_10401.jpg" alt="Chicken" >
+            </div>
+          </div>
+    </div>
+
+
+</div>      
+    <div class="footer">© 2023 The GodFather</div>
+
+
+</body>
+
+</html>
