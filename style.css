@@ -1,0 +1,95 @@
+:root{
+    --background:#f9bd3d;
+    --text-color: rgb(9, 10, 9);
+  }
+
+.header{
+    background-color: var(--background);
+}  
+.menu-color{
+  color: var(--text-color);  
+  font-weight: 500;
+  font-size: 18px;
+}
+.hero-container{
+    background-color: var(--background);
+    margin-top: 70px;
+}
+
+.hero-text h1 span, .hero-text p {
+    color: var(--text-color);
+}
+
+/* Apply the background to the entire body of the page */
+body {
+    background-color: var(--background);
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Use a custom font, change as needed */
+}
+
+/* Expand the image and text size */
+.hero-container img {
+    width: 100%; /* Make the image responsive */
+    max-width: 900px; /* Set a max-width if needed */
+    height: auto; /* Keep the aspect ratio */
+}
+
+.hero-text h1 {
+    font-size: 5rem; /* Increase the size of the h1 */
+}
+
+.hero-text p {
+    font-size: 1.25rem; /* Increase the size of the paragraph */
+}
+
+/* Ensure that .container-fluid expands to the width of the screen */
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+.delivery-process{
+    color: var(--text-color);
+    background-color: antiquewhite;
+
+}
+.text-color{
+    color: var(--text-color);
+}
+
+.Tasty{
+    background-color: var(--background);
+    color: var(--text-color);
+}
+.food-text{
+    color: var(--text-color);
+}
+
+.slider{
+    background-image: url(../assets/Images/bg2.png);
+}
+.p1Color{
+    background-color: rgb(224, 224, 224);
+}
+.p2Color{
+    background-color: rgb(224, 224, 224);
+}
+.p3Color{
+    background-color: rgb(224, 224, 224);
+}
+.p4color{
+    background-color: rgb(224, 224, 224);
+}
+.p5color{
+    background-color: rgb(224, 224, 224);
+}
+
+.p-Image{
+    width: 300px;
+    height: 200px;
+}
+.footer{
+    background-image: url(../assets/Images/bgf.png);
+}
